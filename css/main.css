@@ -171,7 +171,7 @@ main{
     display: none;
 }
 
-.close-menu{
+.closet-menu{
     display: none;
 }
 
@@ -227,7 +227,7 @@ main{
     .header-mobile .logo{
         color: var(--clr-gray);
     }
-    .open-menu,.close-menu{
+    .open-menu,.closet-menu{
         background-color: transparent;
         color: var(--clr-gray);
         border: 0;
@@ -235,10 +235,19 @@ main{
         cursor: pointer;
     }
 
-    .close-menu{
+    .closet-menu{
         display: block;
         position: absolute;
         top: 1rem;
         right: 1rem;
+
+    }
+
+    .open-menu{
+        background-color: transparent;
+    }
+
+    .logo{
+        margin-top: 3rem;
     }
 }
